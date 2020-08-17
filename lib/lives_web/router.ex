@@ -17,7 +17,7 @@ defmodule LivesWeb.Router do
   scope "/", LivesWeb do
     pipe_through :browser
 
-    live "/", PageLive, :index
+    live "/", Counter
   end
 
   # Other scopes may use custom stacks.
